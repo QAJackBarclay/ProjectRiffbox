@@ -1,0 +1,27 @@
+{%extends "navbar.html"%}
+{%block content%}
+<html>
+    <head>
+        <title>Project Riffbox</title>
+    </head>
+    
+    <body>
+        <p>
+        <div class='form'>
+            <form method='POST' action=''>
+                {{ form.hidden_tag() }}
+                {{ form.favourite_genre1.label }} {{ form.favourite_genre1 }}
+                <br>
+                {{ form.favourite_genre2.label }} {{ form.favourite_genre2}}
+                <br>
+                {{ form.favourite_genre3.label }} {{ form.favourite_genre3 }}
+                <br>
+                {{ form.submit }}
+                <br>
+            {{ message }}
+            </form>
+        </p>
+        </div>
+    </body>
+</html>
+{%endblock content%}
