@@ -32,3 +32,8 @@ Testing the website resulted in everything currently added functioning as expect
 Hyperlink 2 in instructions currently does not work as the function for Input has not yet been created.
 
 Created dev branch to push everything to GitHub, then once I am happy push everything to the main branch.
+
+Updated the Index to describe the available genres, inputted a quote for myself along with some html practice on seperating information.
+
+Created the forms.py file and managed to get the Input webpage working with some stringfields although they do not register anything yet.
+
