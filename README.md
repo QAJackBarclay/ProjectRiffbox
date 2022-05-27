@@ -1,5 +1,7 @@
 # ProjectRiffbox
 
+GIT PUSH ORIGIN DEV AFTER EVERY SESSION
+
 Welcome to the readme of Project Riffbox! 
 
 This will be my first ever project to display as much as I have learned over the past four weeks in training.
@@ -29,13 +31,4 @@ Testing the website resulted in everything currently added functioning as expect
 
 Hyperlink 2 in instructions currently does not work as the function for Input has not yet been created.
 
-
-    if request.method == 'POST':
-        favourite_genre1 = form.favourite_genre1.data
-        favourite_genre2 = form.favourite_genre2.data
-        favourite_genre3 = form.favourite_genre3.data
-
-        if len(favourite_genre1) == 0 or len(favourite_genre2) == 0 or len(favourite_genre3) == 0 :
-            message = "Please supply your favourite genres!"
-        else:
-            message = f'Thank you!'
+Created dev branch to push everything to GitHub, then once I am happy push everything to the main branch.

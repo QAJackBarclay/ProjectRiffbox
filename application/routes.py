@@ -1,5 +1,7 @@
 from application import app
 from flask import render_template
+from application.forms import BasicForm
+
 
 @app.route ('/')
 
@@ -21,7 +23,6 @@ def result():
 
 @app.route('/input', methods=['GET', 'POST'])
 def register():
-    message = ""
     form = BasicForm()
     
-    return render_template('home.html', form=form, message=message)
+    return render_template('input.html', form=form, message= "Riffbox")
