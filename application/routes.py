@@ -1,7 +1,7 @@
 from application import app
 from flask import render_template, request
 from application.forms import BasicForm, Register_1
-
+from application.models import Genres
 
 @app.route ('/')
 
@@ -11,7 +11,6 @@ from application.forms import BasicForm, Register_1
 
 @app.route('/home', methods=['GET', 'POST'])
 def register_1():
-     message = "Enter name: "
      form = Register_1()
      
      if request.method == 'POST':
@@ -23,7 +22,7 @@ def register_1():
                message = f'Thank you, {first_name}'
                return render_template('home.html', form=form, message=message)
 
-     return render_template('home.html', form=form, message=message)
+     return render_template('home.html', form=form)
 
 
 @app.route('/index')
