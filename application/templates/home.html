@@ -15,6 +15,14 @@
         </p>
         <body style="text-align: center"></body>  
         <img src="images/ProjectRiffbox.jpg" alt="RiffBox" Width = 520 heigh = 520>
+        <div class='form'>
+            <form method='POST' action=''>
+            {{ form.hidden_tag() }}
+            {{ form.first_name.label }} {{ form.first_name }}
+            <br>
+            {{ form.submit }}
+            <br>
+            {{ message }}
     </body>
 </html>
 {%endblock content%}
