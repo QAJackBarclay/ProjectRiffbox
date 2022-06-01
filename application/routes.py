@@ -1,9 +1,9 @@
 from application import app
-from flask import render_template, request
+from flask import render_template, request, redirect, url_for
 from application.forms import BasicForm, Register_1
 from application.models import Genres
 
-@app.route ('/')
+@app.route ('/', methods=['GET', 'POST'])
 
 #@app.route('/home')
 #def home():
@@ -20,10 +20,9 @@ def register_1():
                message = "Please supply your name!"
           else:
                message = f'Thank you, {first_name}'
-               return render_template('home.html', form=form, message=message)
+               return redirect(url_for("register"))
 
      return render_template('home.html', form=form)
-
 
 @app.route('/index')
 def index():

@@ -37,3 +37,5 @@ Updated the Index to describe the available genres, inputted a quote for myself 
 
 Created the forms.py file and managed to get the Input webpage working with some stringfields although they do not register anything yet.
 
+
+

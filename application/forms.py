@@ -9,7 +9,7 @@ class Register_1(FlaskForm):
 
 class BasicForm(FlaskForm):
     name = StringField("Your Name: ", validators=[DataRequired()])
-    favourite_1 = SelectField("Pick a genre: ", choices = ['Rock', 'Metal', 'Reggae', 'Disco', 'Hardstyle' ])
-    favourite_2 = SelectField("Pick a genre: ", choices = ['Rock', 'Metal', 'Reggae', 'Disco', 'Hardstyle'])
-    favourite_3 = SelectField("Pick a genre: ", choices = ['Rock', 'Metal', 'Reggae', 'Disco', 'Hardstyle'])
+    favourite_1 = SelectField("Pick a genre: ", choices = ['Rock', 'Metal', 'Reggae', 'Disco', 'Hardstyle', 'Rap'])
+    favourite_2 = SelectField("Pick a genre: ", choices = ['Rock', 'Metal', 'Reggae', 'Disco', 'Hardstyle', 'Rap'])
+    favourite_3 = SelectField("Pick a genre: ", choices = ['Rock', 'Metal', 'Reggae', 'Disco', 'Hardstyle', 'Rap'])
     submit = SubmitField ('Consult the Riffbox')
