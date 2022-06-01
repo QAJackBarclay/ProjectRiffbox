@@ -50,5 +50,5 @@ eddie_murphy = Songs(name= 'Eddie Murphy', genre = disco, link = 'https://youtu.
 modern_talking = Songs(name= 'Modern Talking', genre = disco, link = 'https://youtu.be/4kHl4FoK1Ys')
 brothers_johnson = Songs(name= 'The Brothers Johnson', genre = disco, link = 'https://youtu.be/tPBDMihPRJA')
 
-db.session.add()
+db.session.add_all()
 db.session.commit()

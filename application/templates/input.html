@@ -8,7 +8,7 @@
     <body>
         <p>
         <div class='form'>
-            <form method='POST' action=''>
+            <form method='POST' action='{{url_for("result")}}'>
                 {{ form.hidden_tag() }}
                 {{ form.favourite_1.label }} {{ form.favourite_1 }}
                 <br>
