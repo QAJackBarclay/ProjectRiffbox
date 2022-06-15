@@ -51,3 +51,9 @@ mariya_takeuchi = Songs(name= 'Mariya Takeuchi', playlist = disco, link = 'https
 eddie_murphy = Songs(name= 'Eddie Murphy', playlist = disco, link = 'https://youtu.be/SyGjuAudW_g')
 modern_talking = Songs(name= 'Modern Talking', playlist = disco, link = 'https://youtu.be/4kHl4FoK1Ys')
 brothers_johnson = Songs(name= 'The Brothers Johnson', playlist = disco, link = 'https://youtu.be/tPBDMihPRJA')
+
+print(Songs.query.all())
+
+db.session.add_all([skints,chezidek,chronixx,mungos_hifi,max_romeo,greta_van_fleet,billy_idol,yes,pearl_jam,alice_in_chains,brotha_lynch_hung,twopac,seotaiji,joyner_lucas,denzel_curry])
+db.session.add_all([ghost,unleash_the_archers,caligulas_horse,agent_fresco,gojira,delete_and_outbreak,warface_and_dsturb,the_purge,tnt,rebelion,average_white_band,eddie_murphy,modern_talking,brothers_johnson,mariya_takeuchi])
+db.session.commit()

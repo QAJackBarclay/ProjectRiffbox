@@ -39,14 +39,19 @@ def result():
      form = BasicForm()
      if request.method == 'POST':
     #dark_souls = Games.query.filter_by(name="Dark Souls").all()
-          var1 = Genres.query.filter_by(name=form.favourite_1.data)
-          print(var1)
-          
-     
-     return render_template('result.html', var1=var1, form=form)
+          var1 = Genres.query.filter_by(name=form.favourite_1.data).first()  #, playlist=form.favourite_1.data, link=form.favourite_1.data)
+          var2 = Songs.query.filter_by(genre_id=var1.id).all()
+          var2 = Songs.query.all()
+          print(var1.id)
+          for i in var2:
+               print(i)
+
+     return render_template('result.html', var1=var1, form=form, var2=var2)
 
 @app.route('/input', methods=['GET', 'POST'])
 def register():
     form = BasicForm()
 
     return render_template('input.html', form=form, message= "Riffbox")
+
+

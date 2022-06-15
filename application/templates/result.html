@@ -12,11 +12,13 @@
         <p>
              <q>Feel the riddim, feel the rhyme, get ready, it's Riffbox time!</q> - Literally noone 
                 
-             <h1> Here are three songs I think you will absolutely love!</h1>
+             <h1> Here is a song, I think you will absolutely love!</h1>
 
-                {% for var1 in var %}     
+                {% for var in var2 %}     
 
-                <h2> {{var.name|safe}} </h2>
+                <h2> {{var.name}} 
+                     {{var.link}}
+                </h2>
 
                 {% endfor %} 
              

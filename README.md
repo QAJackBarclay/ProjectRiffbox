@@ -45,6 +45,9 @@ Now I need to build a function that takes the three selected genres, and display
 
 Also need to build a delete function which I am think of creating two buttons, one thumbs up and one thumbs down for easy save/delete.
 
+
+
+
 14.06.2022
 After our Project faced an unavoidable delay when we had our Project week cut short by two days, followed by an entire week in London where we met the team in person.
 
@@ -54,3 +57,8 @@ Was working onn a VM and not local to see what tables look like in SQL due to VM
 15.06.2022
 The forms on input.html did not have any functionality behind them and I spent the majority of the morning and afternoon setting up the relationships between 
 html pages, databases and forms and troubleshooting form queries.
+
+After discussing with others and the trainer, I have decided to scale back the project to meet the deadline by changing it to be a single dropdown box that you can
+select a genre, it will then display from that genre some songs! 
+
+I may add an update and delete function if I have enough time.
