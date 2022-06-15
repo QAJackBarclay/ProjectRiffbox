@@ -1,7 +1,8 @@
 from application import app
 from flask import render_template, request, redirect, url_for
 from application.forms import BasicForm, Register_1
-from application.models import Genres
+from application.models import Genres, Songs
+import random
 
 @app.route ('/', methods=['GET', 'POST'])
 
@@ -33,12 +34,19 @@ def instructions():
      return render_template('instructions.html')
 
 
-@app.route('/result')
+@app.route('/result', methods=['GET', 'POST'])
 def result():
-     return render_template('result.html')
+     form = BasicForm()
+     if request.method == 'POST':
+    #dark_souls = Games.query.filter_by(name="Dark Souls").all()
+          var1 = Genres.query.filter_by(name=form.favourite_1.data)
+          print(var1)
+          
+     
+     return render_template('result.html', var1=var1, form=form)
 
 @app.route('/input', methods=['GET', 'POST'])
 def register():
     form = BasicForm()
-    
+
     return render_template('input.html', form=form, message= "Riffbox")

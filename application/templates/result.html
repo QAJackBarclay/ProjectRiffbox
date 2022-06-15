@@ -1,5 +1,8 @@
 {%extends "navbar.html"%}
 {%block content%}
+
+<asp:Label ID="LabelShowYouTubeVideo" runat="server"></asp:Label>
+
 <html>
     <head>
         <title>Riffbox Results</title>
@@ -9,8 +12,13 @@
         <p>
              <q>Feel the riddim, feel the rhyme, get ready, it's Riffbox time!</q> - Literally noone 
                 
-             <h1> Here are five songs I think you will absolutely love!</h1>
-             
+             <h1> Here are three songs I think you will absolutely love!</h1>
+
+                {% for var1 in var %}     
+
+                <h2> {{var.name|safe}} </h2>
+
+                {% endfor %} 
              
         </p>
         <body style="text-align: center"></body>  

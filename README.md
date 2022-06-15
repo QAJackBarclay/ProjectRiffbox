@@ -37,5 +37,20 @@ Updated the Index to describe the available genres, inputted a quote for myself 
 
 Created the forms.py file and managed to get the Input webpage working with some stringfields although they do not register anything yet.
 
+Managed to get all hyperlinks working and redirecting to the appropraite pages, along with this, all select fields and buttons also now work and redirect to the correct pages. 
 
+Built the database of youtube links each seperated into their respective genre databases.
 
+Now I need to build a function that takes the three selected genres, and displays the music requested.
+
+Also need to build a delete function which I am think of creating two buttons, one thumbs up and one thumbs down for easy save/delete.
+
+14.06.2022
+After our Project faced an unavoidable delay when we had our Project week cut short by two days, followed by an entire week in London where we met the team in person.
+
+Did not have SQL Workbench set up properly 
+Was working onn a VM and not local to see what tables look like in SQL due to VM
+
+15.06.2022
+The forms on input.html did not have any functionality behind them and I spent the majority of the morning and afternoon setting up the relationships between 
+html pages, databases and forms and troubleshooting form queries.
