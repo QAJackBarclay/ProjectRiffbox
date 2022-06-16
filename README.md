@@ -1,5 +1,36 @@
 # ProjectRiffbox
 
+Welcome to Project Riffbox, my first ever project created using the training I have learned over the past four weeks.
+
+In this project, my intention is to create a website that a user can visit to find new music, the final product should take the users requested genre and display a list of five songs for them to listen to.
+
+## Project Planning and Managment
+
+The original project had been planned to have multiple features, from selected three genres of music and it displaying the youtube links embedded into the html
+but with time constraints and scheduling issues within the business, the Project week was cut short and had to be restarted at a later date.
+
+To deal with this, the functionality was stripped back further to a basic concept so that I could complete the Project in the alloted timeframe whilst also
+attempting to complete as much work as possible.
+
+I created a Trello board to help keep track of my ongoing work.
+
+## Risk Assesment 
+
+## The Application
+
+I was able to create all the desirable html pages, along with the main function of the website complete with hyperlinks and 
+a working navbar.
+
+## Testing
+
+## User Story
+
+## Known Issues 
+
+## Final Notes
+
+
+
 GIT PUSH ORIGIN DEV AFTER EVERY SESSION
 
 Welcome to the readme of Project Riffbox! 

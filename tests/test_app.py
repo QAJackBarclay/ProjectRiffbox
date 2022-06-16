@@ -10,7 +10,35 @@ class TestBase(TestCase):
                 DEBUG=True,
                 WTF_CSRF_ENABLED=False
                 )
+                return app
+
+class TestBase(TestCase):
+
+    def create_app(self):
+        app.config.update(
+            SQLALCHEMY_DATABASE_URI='sqlite:///',
+            DEBUG=True,
+            WTF_CSRF_ENABLED=False
+        )
         return app
+
+
+def tearDown(self):
+    db.session.remove()
+    db.drop_all()
+
+class TestViewHome(TestBase):
+    def test_get_home(self):
+        response = self.client.get(url_for("index"))self.assert200(response)
+   
+    def setUp(self):
+        # Create table
+        db.create_all()
+        # Create test registree
+        first_name = Register(name="jack")
+        # save users to database
+        db.session.add(first_name)
+        db.session.commit()
 
     def setUp(self):
         db.create_all()
@@ -24,7 +52,5 @@ class TestBase(TestCase):
         db.session.add(Songs)
         db.session.commit()
 
-    def tearDown(self):
-        db.session.remove()
-        db.drop_all()
-
+def test_basic_form(self):
+    url_for('')
