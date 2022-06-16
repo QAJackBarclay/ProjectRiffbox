@@ -12,6 +12,8 @@ but with time constraints and scheduling issues within the business, the Project
 To deal with this, the functionality was stripped back further to a basic concept so that I could complete the Project in the alloted timeframe whilst also
 attempting to complete as much work as possible.
 
+https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox.PNG
+
 I created a Trello board to help keep track of my ongoing work.
 
 ## Risk Assesment 
