@@ -44,8 +44,11 @@ def result():
           print(var1.id)
           for i in var2:
                print(i)
-
-     return render_template('result.html', form=form, var2=var2)  
+          return render_template('result.html', form=form, var2=var2)  
+    
+     else: 
+               
+          return render_template('result.html') 
 
 @app.route('/input', methods=['GET', 'POST'])
 def register():
