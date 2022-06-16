@@ -34,12 +34,18 @@ Extra features not added
 I was able to create all the desirable html pages, along with the main function of the website complete with hyperlinks and 
 a working navbar.
 
+<img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox.PNG" alt="Alt text" title="Optional title">
+<img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox.PNG" alt="Alt text" title="Optional title">
+<img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox%20Results.PNG" alt="Alt text" title="Optional title">
+
 ## Testing
 Managed to keep testing above 75% as I tested the core function and response times of each webpage.
+<img src=" " alt="Alt text" title="Optional title">
 
 ## User Story
 The user should be able to go onto the website, submit any name they want into the submit box. Once they have done so it will redirect them to another page
 where they can select which genre of music they would like to see some music from, after they select the genre and submit the field it will then take them to the final page, where it will display the names and youtube links to the songs.
+<img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox%20Index.PNG" alt="Alt text" title="Optional title">
 
 ## Known Issues 
 
