@@ -6,16 +6,15 @@ In this project, my intention is to create a website that a user can visit to fi
 
 ## Project Planning and Managment
 
-The original project had been planned to have multiple features, from selected three genres of music and it displaying the youtube links embedded into the html
-but with time constraints and scheduling issues within the business, the Project week was cut short and had to be restarted at a later date.
+The original project had planned to have multiple features, from selecting three genres of music and displaying the youtube links embedded into the html
+but with time constraints and scheduling issues, along with a lack of experience resulted in me also having to cut features and replan accordingly.
 
 To deal with this, the functionality was stripped back further to a basic concept so that I could complete the Project in the alloted timeframe whilst also
 attempting to complete as much work as possible.
 
+I created a Trello board to help keep track of my ongoing work.
 <img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Trello%201.PNG" alt="Alt text" title="Optional title">
 
-
-I created a Trello board to help keep track of my ongoing work.
 
 ## Risk Assesment 
 The biggest risks: 
@@ -32,19 +31,19 @@ Extra features not added
 ## The Application
 
 I was able to create all the desirable html pages, along with the main function of the website complete with hyperlinks and 
-a working navbar.
+navbar.
 
 <img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox.PNG" alt="Alt text" title="Optional title">
 <img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox.PNG" alt="Alt text" title="Optional title">
 <img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox%20Results.PNG" alt="Alt text" title="Optional title">
 
 ## Testing
-Managed to keep testing above 75% as I tested the core function and response times of each webpage.
+Covered over 85% of the current Project and hoping to reach 95% before the deadline.
 <img src=" " alt="Alt text" title="Optional title">
 
 ## User Story
-The user should be able to go onto the website, submit any name they want into the submit box. Once they have done so it will redirect them to another page
-where they can select which genre of music they would like to see some music from, after they select the genre and submit the field it will then take them to the final page, where it will display the names and youtube links to the songs.
+The user should be able to go onto the website, submit any name they want into the submit box. Once they have done so it will redirect them to the input page
+where they can select which genre of music they would like to hear some music from, after they select the genre and submit, it will then take them to the results page, where it will display the names and youtube links of five songs from that style of music.
 <img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox%20Index.PNG" alt="Alt text" title="Optional title">
 
 ## Known Issues 
@@ -55,7 +54,10 @@ After Project weeks time was cut short and then restarted two weeks later, the p
 
 ## Final Notes
 
-I am unhappy with how the project turned out, I believe I can do much better in the future.
+I am happy with how the Project turned out considering all the issues that where faced over the past three weeks, as someone with no prior experience to coding 
+other than this training course I think it shows potential if I was given proper time and attention to learn and practice correctly. 
+
+With an entire week gap in between coding and soft skills development, my information retention has been put properly to the test and I also have to thank my amazing cohort for their support and dedication to keeping everyone working together.
 
 
 ## Developer Diary and notes
