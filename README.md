@@ -15,6 +15,16 @@ attempting to complete as much work as possible.
 I created a Trello board to help keep track of my ongoing work.
 
 ## Risk Assesment 
+The biggest risks: 
+Unable to complete Project on time 
+Unable to deliver a functioning website
+Website does not load
+Functions do not work
+Links do not work
+
+The smaller risks:
+Extra features not added
+
 
 ## The Application
 
@@ -22,17 +32,24 @@ I was able to create all the desirable html pages, along with the main function 
 a working navbar.
 
 ## Testing
+Managed to keep testing above 75% as I tested the core function and response times of each webpage.
 
 ## User Story
+The user should be able to go onto the website, submit any name they want into the submit box. Once they have done so it will redirect them to another page
+where they can select which genre of music they would like to see some music from, after they select the genre and submit the field it will then take them to the final page, where it will display the names and youtube links to the songs.
 
 ## Known Issues 
 
+Due to my lack of experience with coding other than this training course I had to scale back some of my larger ambitions such as selecting three genres and having a random selection of five songs be delivered to the user.
+
+After Project weeks time was cut short and then restarted two weeks later, the project is now focussed primarly of getting to a working state so that it can be improved upon in time and after I learn more from the course.
+
 ## Final Notes
 
+I am unhappy with how the project turned out, I believe I can do much better in the future.
 
 
-GIT PUSH ORIGIN DEV AFTER EVERY SESSION
-
+## Developer Diary and notes
 Welcome to the readme of Project Riffbox! 
 
 This will be my first ever project to display as much as I have learned over the past four weeks in training.
