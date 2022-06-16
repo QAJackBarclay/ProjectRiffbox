@@ -29,8 +29,8 @@ class TestBase(TestCase):
         db.session.add(Skints2)
         db.session.commit()
 
-class TestViewHome(TestBase):
-    def test_get_home(self):
+class TestViewIndex(TestBase):
+    def test_get_index(self):
         response = self.client.get(url_for("index"))
         self.assert200(response)
 
@@ -39,5 +39,24 @@ class TestViewResults(TestBase):
         response = self.client.get(url_for("result"))
         self.assert200(response)
 
-    #def test_basic_form(self):
-       # url_for('')
+
+class TestViewInstructions(TestBase):
+    def test_get_instructions(self):
+        response = self.client.get(url_for("instructions"))
+        self.assert200(response)
+
+class TestViewHome(TestBase):
+    def test_get_home(self):
+       response = self.client.get(url_for("register_1"))
+       self.assert200(response)
+
+class TestViewHome(TestBase):
+    def test_get_home(self):
+        response = self.client.post(url_for('register_1'), data=dict(first_name="Jack"), follow_redirects=True)
+        self.assertEqual(response.status_code, 200)
+        self.assertIn(b"", response.data)
+
+class TestViewInput(TestBase):
+    def test_get_input(self):
+        response = self.client.post(url_for("register"))
+        self.assert200(response)
