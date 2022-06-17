@@ -96,3 +96,7 @@ After discussing with others and the trainer, I have decided to scale back the p
 select a genre, it will then display from that genre some songs! 
 
 I may add an update and delete function if I have enough time.
+
+16.06.2022
+Tried to refactor code to add the users name in the result page so that it would display their name and the playlist but I was advised this would take too long
+and I should also cut this feature for now.
