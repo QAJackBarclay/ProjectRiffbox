@@ -1,6 +1,9 @@
 flask
 flask_sqlalchemy
-flask-testing
+flask_testing
+flask_wtf
+wtforms
 pytest
 pytest-cov
 pymysql
+gunicorn
