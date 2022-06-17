@@ -39,7 +39,7 @@ navbar.
 
 ## Testing
 Covered over 85% of the current Project and hoping to reach 95% before the deadline.
-<img src=" " alt="Alt text" title="Optional title">
+<img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/347e523d41db1dad3be26703cde4f928db628a39/application/Images/Jenkins%20test.PNG" alt="Alt text" title="Optional title">
 
 ## User Story
 The user should be able to go onto the website, submit any name they want into the submit box. Once they have done so it will redirect them to the input page
