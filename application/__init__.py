@@ -10,7 +10,3 @@ db = SQLAlchemy(app)
 app.config['SECRET_KEY'] = os.getenv("SECRET_KEY")
 
 from application import routes
-
-
-#'sqlite:///db.sqlite'
-#'YOUR_SECRET_KEY'
