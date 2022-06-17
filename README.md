@@ -17,28 +17,33 @@ I created a Trello board to help keep track of my ongoing work.
 
 
 ## Risk Assesment 
-The biggest risks: 
-Unable to complete Project on time 
-Unable to deliver a functioning website
-Website does not load
-Functions do not work
-Links do not work
 
-The smaller risks:
-Extra features not added
+The biggest risk for Project Riffbox was being unable to deliver anything for the user to see or interact with, which was the priority heading into the Project extension week as the delay of a week in between starting the Project and then having to pick up where I left off forced me to make some major decisions to avoid this risk. 
+
+The second biggest risk was delivering an application that didn't fit the parameters or reach the deployment phase due to this, although some features are not yet implemented the foundation work has been done to add these features at a later time.
+
+The risk of hackers or unwarranted users in the database by accessing the network past the firewall. 
+
+There is a risk that the youtube links lead to no video as they could have been taken down. 
+
+The least important risk is that the user did not enjoy the music provided by Riffbox.
 
 
 ## The Application
 
 I was able to create all the desirable html pages, along with the main function of the website complete with hyperlinks and 
-navbar.
+navbar that all lead to their respective pages. 
+
+I uploaded images to github to host them so that they could be displayed on the webpages for the user to see, along with this I managed to create a database of music that the user can see by selecting the appropriate genre.
+
+There was initially meant to be a random playlist generator feature that would take three genres selected by the user and display five links selected from the database at random but due to time constraints this was cut.
 
 <img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox.PNG" alt="Alt text" title="Optional title">
 <img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox.PNG" alt="Alt text" title="Optional title">
 <img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox%20Results.PNG" alt="Alt text" title="Optional title">
 
 ## Testing
-Covered over 85% of the current Project and hoping to reach 95% before the deadline.
+Covered 91% of testing after deploying through Jenkins.
 <img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/347e523d41db1dad3be26703cde4f928db628a39/application/Images/Jenkins%20test.PNG" alt="Alt text" title="Optional title">
 
 ## User Story
@@ -100,3 +105,17 @@ I may add an update and delete function if I have enough time.
 16.06.2022
 Tried to refactor code to add the users name in the result page so that it would display their name and the playlist but I was advised this would take too long
 and I should also cut this feature for now.
+
+Exported coverage to a .xml
+
+Refined html and code as best as I could before pushing to main. 
+
+Set up Jenkins and a systemctl file for deployment
+
+Set up firewall and parameters 
+
+got test coverage up to 91% out of 95% target
+
+Jenkins fully deploys
+
+Final push now going to GitHub for presentation.
