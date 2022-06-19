@@ -39,7 +39,7 @@ I uploaded images to github to host them so that they could be displayed on the 
 There was initially meant to be a random playlist generator feature that would take three genres selected by the user and display five links selected from the database at random but due to time constraints this was cut.
 
 <img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox.PNG" alt="Alt text" title="Optional title">
-<img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox.PNG" alt="Alt text" title="Optional title">
+<img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/95dcff08bc8beec1d6e0c8079a3ffe660af4e8f9/application/Images/Riffbox%20input.PNG" alt="Alt text" title="Optional title">
 <img src="https://github.com/QAJackBarclay/ProjectRiffbox/blob/4104427fa4154732d32730bb05e036be386bee28/application/Images/Riffbox%20Results.PNG" alt="Alt text" title="Optional title">
 
 ## Testing
